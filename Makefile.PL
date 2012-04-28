@@ -9,11 +9,13 @@ WriteMakefile(
     AUTHOR       => 'Jeff Kubina (jeff.kubina@gmail.com)',
     ABSTRACT     => 'Computes components of undirected graph.',
     PREREQ_PM    => {
-                     'Data::Dump' => 1.00,
-                     'Test::Simple' => 0.44,
+                     'Data::Dump' => '1.00',
+                     'Test::Simple' => '0.44',
                      'Log::Log4perl' => '1.30',
                      'Sort::External' => '0.18',
                      'Text::CSV' => '1.21',
+                     'File::Path' => '2.08',
+                     'Time::HiRes' => '1.97',
                     },
 );
 __END__
